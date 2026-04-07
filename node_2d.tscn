@@ -1,0 +1,440 @@
+[gd_scene format=3 uid="uid://ccf0jnvtp0ito"]
+
+[ext_resource type="Script" uid="uid://bhitqdig6cqye" path="res://node_2d.gd" id="1_wtcfe"]
+[ext_resource type="Texture2D" uid="uid://0o602dguvj7q" path="res://imgs/button_A.png" id="2_0e48y"]
+[ext_resource type="Texture2D" uid="uid://bdvfq6c2oa5t8" path="res://imgs/mode_info.png" id="2_4d7sh"]
+[ext_resource type="Texture2D" uid="uid://doecclpgx04b3" path="res://imgs/button_T.png" id="2_epypp"]
+[ext_resource type="Texture2D" uid="uid://btls1bnadbwt7" path="res://imgs/tile_info.png" id="2_kdubu"]
+[ext_resource type="Texture2D" uid="uid://cf4ttj27nsye8" path="res://imgs/bg1.png" id="2_q6r6c"]
+[ext_resource type="Texture2D" uid="uid://cfu8vp6r31bdm" path="res://imgs/button_I.png" id="3_0hol4"]
+[ext_resource type="Texture2D" uid="uid://di4en45bcm0wx" path="res://imgs/bg_bridge.webp" id="3_kdubu"]
+[ext_resource type="Texture2D" uid="uid://bc06mi7p6mtpb" path="res://imgs/mode_info2.png" id="3_rj586"]
+[ext_resource type="Texture2D" uid="uid://cy00h428xjb84" path="res://imgs/Cognitive_Disruptor_OO_Icon.svg" id="9_ir8iy"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_x0ka3"]
+content_margin_left = 0.0
+content_margin_top = 0.0
+content_margin_right = 0.0
+content_margin_bottom = 0.0
+texture = ExtResource("2_kdubu")
+texture_margin_left = 50.0
+expand_margin_left = 40.0
+expand_margin_right = 10.0
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_0h7mo"]
+content_margin_left = 0.0
+content_margin_top = 0.0
+content_margin_right = 0.0
+content_margin_bottom = 0.0
+texture = ExtResource("2_kdubu")
+texture_margin_left = 50.0
+expand_margin_left = 40.0
+expand_margin_right = 10.0
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_d2bti"]
+texture = ExtResource("3_rj586")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_hqns4"]
+texture = ExtResource("2_q6r6c")
+region_rect = Rect2(1400, 0, 2202, 1239)
+modulate_color = Color(0.5019608, 0.5019608, 0.5019608, 1)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_0hol4"]
+load_path = "res://.godot/imported/button_T.png-525e63104ace53895cb7fd03bcb13dfd.ctex"
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_q6r6c"]
+content_margin_left = 0.0
+content_margin_top = 0.0
+content_margin_right = 0.0
+content_margin_bottom = 0.0
+texture = SubResource("CompressedTexture2D_0hol4")
+texture_margin_left = 100.0
+texture_margin_top = 60.0
+texture_margin_right = 100.0
+texture_margin_bottom = 60.0
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_kdubu"]
+load_path = "res://.godot/imported/button_T.png-525e63104ace53895cb7fd03bcb13dfd.ctex"
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_d21ai"]
+content_margin_left = 0.0
+content_margin_top = 0.0
+content_margin_right = 0.0
+content_margin_bottom = 0.0
+texture = SubResource("CompressedTexture2D_kdubu")
+texture_margin_left = 100.0
+texture_margin_top = 60.0
+texture_margin_right = 100.0
+texture_margin_bottom = 60.0
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_rj586"]
+content_margin_left = 0.0
+content_margin_top = 0.0
+content_margin_right = 0.0
+content_margin_bottom = 0.0
+texture = ExtResource("2_epypp")
+texture_margin_left = 100.0
+texture_margin_top = 60.0
+texture_margin_right = 100.0
+texture_margin_bottom = 60.0
+modulate_color = Color(0.5019608, 0.5019608, 0.5019608, 1)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_kdubu"]
+content_margin_left = 0.0
+content_margin_top = 0.0
+content_margin_right = 0.0
+content_margin_bottom = 0.0
+texture = ExtResource("3_0hol4")
+texture_margin_left = 100.0
+texture_margin_top = 60.0
+texture_margin_right = 100.0
+texture_margin_bottom = 60.0
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_4d7sh"]
+content_margin_left = 0.0
+content_margin_top = 0.0
+content_margin_right = 0.0
+content_margin_bottom = 0.0
+texture = ExtResource("3_0hol4")
+texture_margin_left = 100.0
+texture_margin_top = 60.0
+texture_margin_right = 100.0
+texture_margin_bottom = 60.0
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_ir8iy"]
+content_margin_left = 0.0
+content_margin_top = 0.0
+content_margin_right = 0.0
+content_margin_bottom = 0.0
+texture = ExtResource("3_0hol4")
+texture_margin_left = 100.0
+texture_margin_top = 60.0
+texture_margin_right = 100.0
+texture_margin_bottom = 60.0
+modulate_color = Color(0.5019608, 0.5019608, 0.5019608, 1)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_wtcfe"]
+load_path = "res://.godot/imported/button_A.png-6ef4c2b563b3083d6a3a64fbb748e5cf.ctex"
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_epypp"]
+content_margin_left = 0.0
+content_margin_top = 0.0
+content_margin_right = 0.0
+content_margin_bottom = 0.0
+texture = SubResource("CompressedTexture2D_wtcfe")
+texture_margin_left = 100.0
+texture_margin_top = 60.0
+texture_margin_right = 100.0
+texture_margin_bottom = 60.0
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_0e48y"]
+content_margin_left = 0.0
+content_margin_top = 0.0
+content_margin_right = 0.0
+content_margin_bottom = 0.0
+texture = ExtResource("2_0e48y")
+texture_margin_left = 100.0
+texture_margin_top = 60.0
+texture_margin_right = 100.0
+texture_margin_bottom = 60.0
+modulate_color = Color(1.195, 1.195, 1.195, 1)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_0hol4"]
+content_margin_left = 0.0
+content_margin_top = 0.0
+content_margin_right = 0.0
+content_margin_bottom = 0.0
+texture = ExtResource("2_0e48y")
+texture_margin_left = 100.0
+texture_margin_top = 60.0
+texture_margin_right = 100.0
+texture_margin_bottom = 60.0
+modulate_color = Color(0.5019608, 0.5019608, 0.5019608, 1)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_ta5nu"]
+content_margin_left = 0.0
+content_margin_top = 0.0
+content_margin_right = 0.0
+content_margin_bottom = 0.0
+texture = ExtResource("2_4d7sh")
+texture_margin_left = 10.0
+texture_margin_right = 10.0
+expand_margin_left = 40.0
+expand_margin_right = 40.0
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_flf07"]
+content_margin_left = 0.0
+content_margin_top = 0.0
+content_margin_right = 0.0
+content_margin_bottom = 0.0
+texture = ExtResource("2_kdubu")
+expand_margin_left = 20.0
+expand_margin_right = 10.0
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_nr8wp"]
+texture = ExtResource("3_kdubu")
+
+[node name="Main" type="Node2D" unique_id=1914524181]
+script = ExtResource("1_wtcfe")
+
+[node name="ArrowContainer" type="HBoxContainer" parent="." unique_id=1131209323]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 960.0
+offset_top = 800.0
+offset_right = 960.0
+offset_bottom = 800.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=1574138340]
+
+[node name="ScoreLabel" type="Label" parent="CanvasLayer" unique_id=319226150]
+offset_left = 1600.0
+offset_top = 70.0
+offset_right = 1800.0
+offset_bottom = 130.0
+theme_override_font_sizes/font_size = 30
+theme_override_styles/normal = SubResource("StyleBoxTexture_x0ka3")
+vertical_alignment = 1
+
+[node name="TimerLabel" type="Label" parent="CanvasLayer" unique_id=306051273]
+offset_left = 1600.0
+offset_top = 200.0
+offset_right = 1800.0
+offset_bottom = 260.0
+theme_override_font_sizes/font_size = 30
+theme_override_styles/normal = SubResource("StyleBoxTexture_0h7mo")
+vertical_alignment = 1
+
+[node name="ModeLabel" type="Label" parent="CanvasLayer" unique_id=908849339]
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -125.0
+offset_top = 100.0
+offset_right = 125.0
+offset_bottom = 200.0
+grow_horizontal = 2
+theme_override_font_sizes/font_size = 31
+theme_override_styles/normal = SubResource("StyleBoxTexture_d2bti")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="StartMenu" type="PanelContainer" parent="CanvasLayer" unique_id=1492189391]
+visible = false
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme_override_styles/panel = SubResource("StyleBoxTexture_hqns4")
+
+[node name="BlitzeButton" type="Button" parent="CanvasLayer" unique_id=519680568]
+custom_minimum_size = Vector2(300, 150)
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -150.0
+offset_top = -40.0
+offset_right = 150.0
+offset_bottom = 110.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/normal = SubResource("StyleBoxTexture_q6r6c")
+theme_override_styles/pressed = SubResource("StyleBoxTexture_d21ai")
+theme_override_styles/hover = SubResource("StyleBoxTexture_rj586")
+
+[node name="TimeAttackButton" type="Button" parent="CanvasLayer" unique_id=1816448687]
+custom_minimum_size = Vector2(300, 150)
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -150.0
+offset_top = 160.0
+offset_right = 150.0
+offset_bottom = 310.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/normal = SubResource("StyleBoxTexture_kdubu")
+theme_override_styles/pressed = SubResource("StyleBoxTexture_4d7sh")
+theme_override_styles/hover = SubResource("StyleBoxTexture_ir8iy")
+
+[node name="SpecialButton" type="Button" parent="CanvasLayer" unique_id=1093739123]
+custom_minimum_size = Vector2(300, 150)
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -150.0
+offset_top = -244.0
+offset_right = 150.0
+offset_bottom = -94.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/normal = SubResource("StyleBoxTexture_epypp")
+theme_override_styles/pressed = SubResource("StyleBoxTexture_0e48y")
+theme_override_styles/hover = SubResource("StyleBoxTexture_0hol4")
+
+[node name="ResultContainer" type="HBoxContainer" parent="CanvasLayer" unique_id=123669654]
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -34.5
+offset_top = 150.0
+offset_right = 34.5
+offset_bottom = 233.0
+grow_horizontal = 2
+
+[node name="ResultLabel" type="Label" parent="CanvasLayer/ResultContainer" unique_id=1115911763]
+layout_mode = 2
+theme_override_font_sizes/font_size = 60
+horizontal_alignment = 1
+
+[node name="SquidIcon" type="TextureRect" parent="CanvasLayer/ResultContainer" unique_id=1358738173]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+texture = ExtResource("9_ir8iy")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="DeselectAllButton" type="Button" parent="CanvasLayer" unique_id=738652768]
+offset_left = 175.0
+offset_top = 50.0
+offset_right = 275.0
+offset_bottom = 100.0
+
+[node name="SelectAllButton" type="Button" parent="CanvasLayer" unique_id=893850476]
+offset_left = 50.0
+offset_top = 50.0
+offset_right = 150.0
+offset_bottom = 100.0
+
+[node name="ScrollContainer" type="ScrollContainer" parent="CanvasLayer" unique_id=2147321341]
+offset_top = 116.0
+offset_right = 360.0
+offset_bottom = 1080.0
+
+[node name="GridContainer" type="GridContainer" parent="CanvasLayer/ScrollContainer" unique_id=844669524]
+layout_mode = 2
+columns = 5
+
+[node name="DetailPanel" type="PanelContainer" parent="CanvasLayer" unique_id=806058314]
+visible = false
+offset_right = 40.0
+offset_bottom = 40.0
+mouse_filter = 2
+
+[node name="DetailLabel" type="Label" parent="CanvasLayer/DetailPanel" unique_id=1354998313]
+layout_mode = 2
+vertical_alignment = 1
+
+[node name="CheckButton" type="CheckButton" parent="CanvasLayer" unique_id=1627457833]
+z_index = 10
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -78.0
+offset_top = -180.0
+offset_right = 78.0
+offset_bottom = -131.0
+grow_horizontal = 2
+grow_vertical = 0
+focus_mode = 0
+theme_override_styles/normal = SubResource("StyleBoxTexture_ta5nu")
+theme_override_styles/pressed = SubResource("StyleBoxTexture_ta5nu")
+theme_override_styles/hover = SubResource("StyleBoxTexture_ta5nu")
+theme_override_styles/hover_pressed = SubResource("StyleBoxTexture_ta5nu")
+theme_override_styles/disabled = SubResource("StyleBoxTexture_ta5nu")
+theme_override_styles/focus = SubResource("StyleBoxTexture_ta5nu")
+alignment = 1
+icon_alignment = 1
+
+[node name="SquidButton" type="CheckButton" parent="CanvasLayer" unique_id=771315289]
+z_index = 10
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -78.0
+offset_top = -110.0
+offset_right = 78.0
+offset_bottom = -61.0
+grow_horizontal = 2
+grow_vertical = 0
+focus_mode = 0
+theme_override_styles/normal = SubResource("StyleBoxTexture_ta5nu")
+theme_override_styles/pressed = SubResource("StyleBoxTexture_ta5nu")
+theme_override_styles/hover = SubResource("StyleBoxTexture_ta5nu")
+theme_override_styles/hover_pressed = SubResource("StyleBoxTexture_ta5nu")
+theme_override_styles/disabled = SubResource("StyleBoxTexture_ta5nu")
+theme_override_styles/focus = SubResource("StyleBoxTexture_ta5nu")
+alignment = 1
+icon_alignment = 1
+
+[node name="MuteButton" type="CheckButton" parent="CanvasLayer" unique_id=1118424748]
+z_index = 10
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = 620.0
+offset_top = -110.0
+offset_right = 700.0
+offset_bottom = -61.0
+grow_horizontal = 2
+grow_vertical = 0
+focus_mode = 0
+theme_override_styles/normal = SubResource("StyleBoxTexture_flf07")
+theme_override_styles/pressed = SubResource("StyleBoxTexture_flf07")
+theme_override_styles/hover = SubResource("StyleBoxTexture_flf07")
+theme_override_styles/hover_pressed = SubResource("StyleBoxTexture_flf07")
+theme_override_styles/disabled = SubResource("StyleBoxTexture_flf07")
+theme_override_styles/focus = SubResource("StyleBoxTexture_flf07")
+alignment = 1
+icon_alignment = 1
+
+[node name="Timer" type="Timer" parent="." unique_id=1346078415]
+wait_time = 1.5
+autostart = true
+
+[node name="BatchIcon" type="TextureRect" parent="." unique_id=2141674683]
+custom_minimum_size = Vector2(128, 128)
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 896.0
+offset_top = 476.0
+offset_right = 1024.0
+offset_bottom = 604.0
+grow_horizontal = 2
+grow_vertical = 2
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Gamebg" type="Panel" parent="." unique_id=472731547]
+visible = false
+z_index = -1
+offset_right = 1920.0
+offset_bottom = 1080.0
+theme_override_styles/panel = SubResource("StyleBoxTexture_nr8wp")
+
+[node name="HoverTimer" type="Timer" parent="." unique_id=1596979051]
+
+[node name="DiffTimer" type="Timer" parent="." unique_id=1476883822]

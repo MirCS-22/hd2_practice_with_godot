@@ -1,0 +1,1169 @@
+{
+	"batches": [
+		{
+			"sequence": [
+				"move_down",
+				"move_left",
+				"move_down",
+				"move_up",
+				"move_right"
+			],
+			"icon": "res://sprites/Machine_Gun_Stratagem_Icon.svg",
+			"comment": "机枪 ↓←↓↑→"
+		},
+		{
+			"sequence": [
+				"move_down",
+				"move_down",
+				"move_left",
+				"move_up",
+				"move_right"
+			],
+			"icon": "res://sprites/Expendable_Anti-Tank_Stratagem_Icon.svg",
+			"comment": "消耗性反坦克武器 ↓↓←↑→"
+		},
+		{
+			"sequence": [
+				"move_down",
+				"move_left",
+				"move_down",
+				"move_up",
+				"move_up",
+				"move_left"
+			],
+			"icon": "res://sprites/Stalwart_Stratagem_Icon.svg",
+			"comment": "盟友 ↓←↓↑↑←"
+		},
+		{
+			"sequence": [
+				"move_down",
+				"move_left",
+				"move_down",
+				"move_up",
+				"move_left"
+			],
+			"icon": "res://sprites/Laser_Cannon_Stratagem_Icon.svg",
+			"comment": "激光大炮 ↓←↓↑←"
+		},
+		{
+			"sequence": [
+				"move_down",
+				"move_left",
+				"move_right",
+				"move_up",
+				"move_down"
+			],
+			"icon": "res://sprites/Anti-Materiel_Rifle_Stratagem_Icon.svg",
+			"comment": "反器材步枪 ↓←→↑↓"
+		},
+		{
+			"sequence": [
+				"move_down",
+				"move_left",
+				"move_right",
+				"move_right",
+				"move_left"
+			],
+			"icon": "res://sprites/Recoilless_Rifle_Stratagem_Icon.svg",
+			"comment": "无后坐力炮 ↓←→→←"
+		},
+		{
+			"sequence": [
+				"move_down",
+				"move_left",
+				"move_up",
+				"move_left",
+				"move_down"
+			],
+			"icon": "res://sprites/Grenade_Launcher_Stratagem_Icon.svg",
+			"comment": "榴弹发射器 ↓←↑←↓"
+		},
+		{
+			"sequence": [
+				"move_down",
+				"move_left",
+				"move_up",
+				"move_down",
+				"move_up"
+			],
+			"icon": "res://sprites/Flamethrower_Stratagem_Icon.svg",
+			"comment": "火焰喷射器 ↓←↑↓↑"
+		},
+		{
+			"sequence": [
+				"move_down",
+				"move_left",
+				"move_up",
+				"move_down",
+				"move_down"
+			],
+			"icon": "res://sprites/Heavy_Machine_Gun_Stratagem_Icon.svg",
+			"comment": "重机枪 ↓←↑↓↓"
+		},
+		{
+			"sequence": [
+				"move_down",
+				"move_left",
+				"move_down",
+				"move_up",
+				"move_up",
+				"move_right"
+			],
+			"icon": "res://sprites/Autocannon_Stratagem_Icon.svg",
+			"comment": "机炮 ↓←↓↑↑→"
+		},
+		{
+			"sequence": [
+				"move_down",
+				"move_right",
+				"move_down",
+				"move_up",
+				"move_left",
+				"move_left"
+			],
+			"icon": "res://sprites/Arc_Thrower_Stratagem_Icon.svg",
+			"comment": "电弧发射器 ↓→↓↑←←"
+		},
+		{
+			"sequence": [
+				"move_down",
+				"move_down",
+				"move_up",
+				"move_left",
+				"move_right"
+			],
+			"icon": "res://sprites/Quasar_Cannon_Stratagem_Icon.svg",
+			"comment": "类星体加农炮 ↓↓↑←→"
+		},
+		{
+			"sequence": [
+				"move_down",
+				"move_up",
+				"move_up",
+				"move_left",
+				"move_right"
+			],
+			"icon": "res://sprites/Airburst_Rocket_Launcher_Stratagem_Icon.svg",
+			"comment": "空爆火箭弹发射器 ↓↑↑←→"
+		},
+		{
+			"sequence": [
+				"move_down",
+				"move_left",
+				"move_up",
+				"move_down",
+				"move_right"
+			],
+			"icon": "res://sprites/Commando_Stratagem_Icon.svg",
+			"comment": "突击兵 ↓←↑↓→"
+		},
+		{
+			"sequence": [
+				"move_down",
+				"move_down",
+				"move_up",
+				"move_down",
+				"move_down"
+			],
+			"icon": "res://sprites/Spear_Stratagem_Icon.svg",
+			"comment": "飞矛 ↓↓↑↓↓"
+		},
+		{
+			"sequence": [
+				"move_down",
+				"move_right",
+				"move_down",
+				"move_up",
+				"move_left",
+				"move_right"
+			],
+			"icon": "res://sprites/Railgun_Stratagem_Icon.svg",
+			"comment": "磁轨炮 ↓→↓↑←→"
+		},
+		{
+			"sequence": [
+				"move_down",
+				"move_down",
+				"move_up",
+				"move_down",
+				"move_right"
+			],
+			"icon": "res://sprites/W.A.S.P._Launcher_Stratagem_Icon.svg",
+			"comment": "W.A.S.P.发射器 ↓↓↑↓→"
+		},
+		{
+			"sequence": [
+				"move_down",
+				"move_left",
+				"move_right",
+				"move_left",
+				"move_up"
+			],
+			"icon": "res://sprites/Breaching_Hammer_Stratagem_Icon.svg",
+			"comment": "破门锤（破围先锋债券） ↓←→←↑"
+		},
+		{
+			"sequence": [
+				"move_down",
+				"move_left",
+				"move_up",
+				"move_left",
+				"move_right"
+			],
+			"icon": "res://sprites/Epoch_Stratagem_Icon.svg",
+			"comment": "纪元（变量控制债券） ↓←↑←→"
+		},
+		{
+			"sequence": [
+				"move_down",
+				"move_right",
+				"move_down",
+				"move_left",
+				"move_up",
+				"move_right"
+			],
+			"icon": "res://sprites/Speargun_Stratagem_Icon.svg",
+			"comment": "矛枪（尘卷风债券） ↓→↓←↑→"
+		},
+		{
+			"sequence": [
+				"move_down",
+				"move_down",
+				"move_left",
+				"move_up",
+				"move_left"
+			],
+			"icon": "res://sprites/Expendable_Napalm_Stratagem_Icon.svg",
+			"comment": "消耗性凝固汽油弹（尘卷风债券） ↓↓←↑←"
+		},
+		{
+			"sequence": [
+				"move_down",
+				"move_left",
+				"move_up",
+				"move_down",
+				"move_left"
+			],
+			"icon": "res://sprites/Sterilizer_Stratagem_Icon.svg",
+			"comment": "灭菌器（化学专家债券） ↓←↑↓←"
+		},
+		{
+			"sequence": [
+				"move_down",
+				"move_left",
+				"move_right",
+				"move_right",
+				"move_down"
+			],
+			"icon": "res://sprites/Defoliation_Tool_Stratagem_Icon.svg",
+			"comment": "除叶工具（蟒蛇突击兵债券） ↓←→→↓"
+		},
+		{
+			"sequence": [
+				"move_down",
+				"move_down",
+				"move_left",
+				"move_up",
+				"move_down"
+			],
+			"icon": "res://sprites/Leveller_Stratagem_Icon.svg",
+			"comment": "荡平者（破围先锋债券） ↓↓←↑↓"
+		},
+		{
+			"sequence": [
+				"move_down",
+				"move_right",
+				"move_up",
+				"move_left",
+				"move_right"
+			],
+			"icon": "res://sprites/De-Escalator_Stratagem_Icon.svg",
+			"comment": "缓和使者（法律铁腕债券） ↓→↑←→"
+		},
+		{
+			"sequence": [
+				"move_down",
+				"move_left",
+				"move_up",
+				"move_left",
+				"move_up",
+				"move_up"
+			],
+			"icon": "res://sprites/Belt-Fed_Grenade_Launcher_Stratagem_Icon.svg",
+			"comment": "弹链式榴弹发射器（破围先锋债券） ↓←↑←↑↑"
+		},
+		{
+			"sequence": [
+				"move_down",
+				"move_left",
+				"move_right",
+				"move_down",
+				"move_up",
+				"move_up"
+			],
+			"icon": "res://sprites/Maxigun_Stratagem_Icon.svg",
+			"comment": "重装机枪（蟒蛇突击兵债券） ↓←→↓↑↑"
+		},
+		{
+			"sequence": [
+				"move_down",
+				"move_left",
+				"move_right",
+				"move_right",
+				"move_up"
+			],
+			"icon": "res://sprites/One_True_Flag_Stratagem_Icon.svg",
+			"comment": "唯一真旗（典礼官债券） ↓←→→↑"
+		},
+		{
+			"sequence": [
+				"move_down",
+				"move_right",
+				"move_up",
+				"move_up",
+				"move_right",
+				"move_up"
+			],
+			"icon": "res://sprites/C4_Pack_Stratagem_Icon.svg",
+			"comment": "C4背包（绝密军团债券） ↓→↑↑→↑"
+		},
+		{
+			"sequence": [
+				"move_down",
+				"move_up",
+				"move_right",
+				"move_down",
+				"move_down"
+			],
+			"icon": "res://sprites/Solo_Silo_Stratagem_Icon.svg",
+			"comment": "单兵导弹发射井（尘卷风债券） ↓↑→↓↓"
+		},
+		{
+			"sequence": [
+				"move_down",
+				"move_down",
+				"move_right",
+				"move_down",
+				"move_up",
+				"move_up"
+			],
+			"icon": "res://sprites/Cremator_Stratagem_Icon.svg",
+			"comment": "焚燃者（堑壕之师债券） ↓↓→↓↑↑"
+		},
+		{
+			"sequence": [
+				"move_right",
+				"move_right",
+				"move_up"
+			],
+			"icon": "res://sprites/Orbital_Precision_Strike_Stratagem_Icon.svg",
+			"comment": "轨道精准攻击 →→↑"
+		},
+		{
+			"sequence": [
+				"move_right",
+				"move_down",
+				"move_left",
+				"move_up",
+				"move_up"
+			],
+			"icon": "res://sprites/Orbital_Gatling_Barrage_Stratagem_Icon.svg",
+			"comment": "轨道加特林火力网 →↓←↑↑"
+		},
+		{
+			"sequence": [
+				"move_right",
+				"move_right",
+				"move_down",
+				"move_right"
+			],
+			"icon": "res://sprites/Orbital_Gas_Strike_Stratagem_Icon.svg",
+			"comment": "轨道毒气攻击 →→↓→"
+		},
+		{
+			"sequence": [
+				"move_right",
+				"move_right",
+				"move_down",
+				"move_left",
+				"move_right",
+				"move_down"
+			],
+			"icon": "res://sprites/Orbital_120mm_HE_Barrage_Stratagem_Icon.svg",
+			"comment": "轨道120MM高爆弹火力网 →→↓←→↓"
+		},
+		{
+			"sequence": [
+				"move_right",
+				"move_right",
+				"move_right"
+			],
+			"icon": "res://sprites/Orbital_Airburst_Strike_Stratagem_Icon.svg",
+			"comment": "轨道空爆攻击 →→→"
+		},
+		{
+			"sequence": [
+				"move_right",
+				"move_right",
+				"move_down",
+				"move_up"
+			],
+			"icon": "res://sprites/Orbital_Smoke_Strike_Stratagem_Icon.svg",
+			"comment": "轨道烟雾攻击 →→↓↑"
+		},
+		{
+			"sequence": [
+				"move_right",
+				"move_right",
+				"move_left",
+				"move_down"
+			],
+			"icon": "res://sprites/Orbital_EMS_Strike_Stratagem_Icon.svg",
+			"comment": "轨道电磁冲击波攻击 →→←↓"
+		},
+		{
+			"sequence": [
+				"move_right",
+				"move_down",
+				"move_up",
+				"move_up",
+				"move_left",
+				"move_down",
+				"move_down"
+			],
+			"icon": "res://sprites/Orbital_380mm_HE_Barrage_Stratagem_Icon.svg",
+			"comment": "轨道380MM高爆弹火力网 →↓↑↑←↓↓"
+		},
+		{
+			"sequence": [
+				"move_right",
+				"move_down",
+				"move_right",
+				"move_down",
+				"move_right",
+				"move_down"
+			],
+			"icon": "res://sprites/Orbital_Walking_Barrage_Stratagem_Icon.svg",
+			"comment": "轨道游走火力网 →↓→↓→↓"
+		},
+		{
+			"sequence": [
+				"move_right",
+				"move_down",
+				"move_up",
+				"move_right",
+				"move_down"
+			],
+			"icon": "res://sprites/Orbital_Laser_Stratagem_Icon.svg",
+			"comment": "轨道激光炮 →↓↑→↓"
+		},
+		{
+			"sequence": [
+				"move_right",
+				"move_right",
+				"move_down",
+				"move_left",
+				"move_right",
+				"move_up"
+			],
+			"icon": "res://sprites/Orbital_Napalm_Barrage_Stratagem_Icon.svg",
+			"comment": "轨道凝固汽油弹火力网 →→↓←→↑"
+		},
+		{
+			"sequence": [
+				"move_right",
+				"move_up",
+				"move_down",
+				"move_down",
+				"move_right"
+			],
+			"icon": "res://sprites/Orbital_Railcannon_Strike_Stratagem_Icon.svg",
+			"comment": "轨道炮攻击 →↑↓↓→"
+		},
+		{
+			"sequence": [
+				"move_up",
+				"move_right",
+				"move_right"
+			],
+			"icon": "res://sprites/Eagle_Strafing_Run_Stratagem_Icon.svg",
+			"comment": "“飞鹰”机枪扫射 ↑→→"
+		},
+		{
+			"sequence": [
+				"move_up",
+				"move_right",
+				"move_down",
+				"move_right"
+			],
+			"icon": "res://sprites/Eagle_Airstrike_Stratagem_Icon.svg",
+			"comment": "“飞鹰”空袭 ↑→↓→"
+		},
+		{
+			"sequence": [
+				"move_up",
+				"move_right",
+				"move_down",
+				"move_down",
+				"move_right"
+			],
+			"icon": "res://sprites/Eagle_Cluster_Bomb_Stratagem_Icon.svg",
+			"comment": "“飞鹰”集束炸弹 ↑→↓↓→"
+		},
+		{
+			"sequence": [
+				"move_up",
+				"move_right",
+				"move_up",
+				"move_down"
+			],
+			"icon": "res://sprites/Eagle_Smoke_Strike_Stratagem_Icon.svg",
+			"comment": "“飞鹰”烟雾攻击 ↑→↑↓"
+		},
+		{
+			"sequence": [
+				"move_up",
+				"move_right",
+				"move_down",
+				"move_up"
+			],
+			"icon": "res://sprites/Eagle_Napalm_Airstrike_Stratagem_Icon.svg",
+			"comment": "“飞鹰”凝固汽油弹空袭 ↑→↓↑"
+		},
+		{
+			"sequence": [
+				"move_up",
+				"move_right",
+				"move_up",
+				"move_left"
+			],
+			"icon": "res://sprites/Eagle_110mm_Rocket_Pods_Stratagem_Icon.svg",
+			"comment": "“飞鹰”110MM火箭巢 ↑→↑←"
+		},
+		{
+			"sequence": [
+				"move_up",
+				"move_right",
+				"move_down",
+				"move_down",
+				"move_down"
+			],
+			"icon": "res://sprites/Eagle_500kg_Bomb_Stratagem_Icon.svg",
+			"comment": "“飞鹰”500KG炸弹 ↑→↓↓↓"
+		},
+		{
+			"sequence": [
+				"move_down",
+				"move_left",
+				"move_up",
+				"move_right"
+			],
+			"icon": "res://sprites/Anti-Personnel_Minefield_Stratagem_Icon.svg",
+			"comment": "反步兵雷区 ↓←↑→"
+		},
+		{
+			"sequence": [
+				"move_down",
+				"move_left",
+				"move_left",
+				"move_down"
+			],
+			"icon": "res://sprites/Incendiary_Mines_Stratagem_Icon.svg",
+			"comment": "燃烧地雷 ↓←←↓"
+		},
+		{
+			"sequence": [
+				"move_down",
+				"move_left",
+				"move_up",
+				"move_up"
+			],
+			"icon": "res://sprites/Anti-Tank_Mines_Stratagem_Icon.svg",
+			"comment": "反坦克地雷 ↓←↑↑"
+		},
+		{
+			"sequence": [
+				"move_down",
+				"move_down",
+				"move_left",
+				"move_right",
+				"move_left",
+				"move_right"
+			],
+			"icon": "res://sprites/Shield_Generator_Relay_Stratagem_Icon.svg",
+			"comment": "防护罩生成中继器 ↓↓←→←→"
+		},
+		{
+			"sequence": [
+				"move_down",
+				"move_up",
+				"move_left",
+				"move_right",
+				"move_right",
+				"move_left"
+			],
+			"icon": "res://sprites/HMG_Emplacement_Stratagem_Icon.svg",
+			"comment": "重机枪部署支架 ↓↑←→→←"
+		},
+		{
+			"sequence": [
+				"move_down",
+				"move_right",
+				"move_down",
+				"move_left",
+				"move_right"
+			],
+			"icon": "res://sprites/Grenadier_Battlement_Stratagem_Icon.svg",
+			"comment": "掷弹兵防卫墙 ↓→↓←→"
+		},
+		{
+			"sequence": [
+				"move_down",
+				"move_left",
+				"move_left",
+				"move_right"
+			],
+			"icon": "res://sprites/Gas_Mines_Stratagem_Icon.svg",
+			"comment": "毒气地雷 ↓←←→"
+		},
+		{
+			"sequence": [
+				"move_down",
+				"move_up",
+				"move_left",
+				"move_right",
+				"move_right",
+				"move_right"
+			],
+			"icon": "res://sprites/Anti-Tank_Emplacement_Stratagem_Icon.svg",
+			"comment": "反坦克炮台（都市传奇债券） ↓↑←→→→"
+		},
+		{
+			"sequence": [
+				"move_down",
+				"move_up",
+				"move_right",
+				"move_right",
+				"move_up"
+			],
+			"icon": "res://sprites/Machine_Gun_Sentry_Stratagem_Icon.svg",
+			"comment": "哨戒机枪 ↓↑→→↑"
+		},
+		{
+			"sequence": [
+				"move_down",
+				"move_up",
+				"move_right",
+				"move_left"
+			],
+			"icon": "res://sprites/Gatling_Sentry_Stratagem_Icon.svg",
+			"comment": "加特林哨戒炮 ↓↑→←"
+		},
+		{
+			"sequence": [
+				"move_down",
+				"move_up",
+				"move_right",
+				"move_up",
+				"move_left",
+				"move_up"
+			],
+			"icon": "res://sprites/Autocannon_Sentry_Stratagem_Icon.svg",
+			"comment": "自动哨戒炮 ↓↑→↑←↑"
+		},
+		{
+			"sequence": [
+				"move_down",
+				"move_up",
+				"move_right",
+				"move_right",
+				"move_down"
+			],
+			"icon": "res://sprites/Mortar_Sentry_Stratagem_Icon.svg",
+			"comment": "迫击哨戒炮 ↓↑→→↓"
+		},
+		{
+			"sequence": [
+				"move_down",
+				"move_up",
+				"move_right",
+				"move_right",
+				"move_left"
+			],
+			"icon": "res://sprites/Rocket_Sentry_Stratagem_Icon.svg",
+			"comment": "火箭哨戒炮 ↓↑→→←"
+		},
+		{
+			"sequence": [
+				"move_down",
+				"move_up",
+				"move_right",
+				"move_up",
+				"move_left",
+				"move_right"
+			],
+			"icon": "res://sprites/Tesla_Tower_Stratagem_Icon.svg",
+			"comment": "特斯拉塔 ↓↑→↑←→"
+		},
+		{
+			"sequence": [
+				"move_down",
+				"move_up",
+				"move_right",
+				"move_down",
+				"move_right"
+			],
+			"icon": "res://sprites/EMS_Mortar_Sentry_Stratagem_Icon.svg",
+			"comment": "电磁冲击波迫击哨戒炮 ↓↑→↓→"
+		},
+		{
+			"sequence": [
+				"move_down",
+				"move_up",
+				"move_right",
+				"move_down",
+				"move_up",
+				"move_right"
+			],
+			"icon": "res://sprites/Laser_Sentry_Stratagem_Icon.svg",
+			"comment": "激光哨戒炮（变量控制债券） ↓↑→↓↑→"
+		},
+		{
+			"sequence": [
+				"move_down",
+				"move_up",
+				"move_right",
+				"move_down",
+				"move_up",
+				"move_up"
+			],
+			"icon": "res://sprites/Flame_Sentry_Stratagem_Icon.svg",
+			"comment": "火焰喷射哨戒炮（都市传奇债券） ↓↑→↓↑↑"
+		},
+		{
+			"sequence": [
+				"move_down",
+				"move_up",
+				"move_right",
+				"move_down",
+				"move_left"
+			],
+			"icon": "res://sprites/Gas_Mortar_Sentry_Stratagem_Icon.svg",
+			"comment": "瓦斯迫击哨戒炮（堑壕之师债券） ↓↑→↓←"
+		},
+		{
+			"sequence": [
+				"move_down",
+				"move_left",
+				"move_down",
+				"move_up",
+				"move_up",
+				"move_down"
+			],
+			"icon": "res://sprites/Supply_Pack_Stratagem_Icon.svg",
+			"comment": "补给背包 ↓←↓↑↑↓"
+		},
+		{
+			"sequence": [
+				"move_down",
+				"move_up",
+				"move_up",
+				"move_down",
+				"move_up"
+			],
+			"icon": "res://sprites/Jump_Pack_Stratagem_Icon.svg",
+			"comment": "喷射背包 ↓↑↑↓↑"
+		},
+		{
+			"sequence": [
+				"move_down",
+				"move_left",
+				"move_down",
+				"move_down",
+				"move_up",
+				"move_left"
+			],
+			"icon": "res://sprites/Ballistic_Shield_Backpack_Stratagem_Icon.svg",
+			"comment": "防弹护盾背包 ↓←↓↓↑←"
+		},
+		{
+			"sequence": [
+				"move_down",
+				"move_up",
+				"move_left",
+				"move_up",
+				"move_right",
+				"move_down"
+			],
+			"icon": "res://sprites/Guard_Dog_Stratagem_Icon.svg",
+			"comment": "“护卫犬”（实弹狗） ↓↑←↑→↓"
+		},
+		{
+			"sequence": [
+				"move_down",
+				"move_up",
+				"move_left",
+				"move_up",
+				"move_right",
+				"move_right"
+			],
+			"icon": "res://sprites/Rover_Stratagem_Icon.svg",
+			"comment": "漫游车（激光狗） ↓↑←↑→→"
+		},
+		{
+			"sequence": [
+				"move_down",
+				"move_up",
+				"move_left",
+				"move_right",
+				"move_left",
+				"move_right"
+			],
+			"icon": "res://sprites/Shield_Generator_Pack_Stratagem_Icon.svg",
+			"comment": "防护罩生成包 ↓↑←→←→"
+		},
+		{
+			"sequence": [
+				"move_down",
+				"move_up",
+				"move_left",
+				"move_right",
+				"move_up",
+				"move_up"
+			],
+			"icon": "res://sprites/Directional_Shield_Stratagem_Icon.svg",
+			"comment": "定向护盾（都市传奇债券） ↓↑←→↑↑"
+		},
+		{
+			"sequence": [
+				"move_down",
+				"move_up",
+				"move_left",
+				"move_up",
+				"move_left",
+				"move_left"
+			],
+			"icon": "res://sprites/Hot_Dog_Stratagem_Icon.svg",
+			"comment": "热狗（火狗，蟒蛇突击兵债券） ↓↑←↑←←"
+		},
+		{
+			"sequence": [
+				"move_down",
+				"move_right",
+				"move_up",
+				"move_up",
+				"move_up"
+			],
+			"icon": "res://sprites/Portable_Hellbomb_Stratagem_Icon.svg",
+			"comment": "便携式地狱火炸弹（自由公仆债券） ↓→↑↑↑"
+		},
+		{
+			"sequence": [
+				"move_down",
+				"move_up",
+				"move_left",
+				"move_up",
+				"move_right",
+				"move_left"
+			],
+			"icon": "res://sprites/K-9_Stratagem_Icon.svg",
+			"comment": "K-9（电狗，法律铁腕债券） ↓↑←↑→←"
+		},
+		{
+			"sequence": [
+				"move_down",
+				"move_up",
+				"move_up",
+				"move_down",
+				"move_left",
+				"move_right"
+			],
+			"icon": "res://sprites/Hover_Pack_Stratagem_Icon.svg",
+			"comment": "悬浮背包（临界正义债券） ↓↑↑↓←→"
+		},
+		{
+			"sequence": [
+				"move_down",
+				"move_up",
+				"move_left",
+				"move_up",
+				"move_right",
+				"move_up"
+			],
+			"icon": "res://sprites/Dog_Breath_Stratagem_Icon.svg",
+			"comment": "腐息（毒狗，化学专家债券） ↓↑←↑→↑"
+		},
+		{
+			"sequence": [
+				"move_down",
+				"move_left",
+				"move_right",
+				"move_down",
+				"move_left",
+				"move_right"
+			],
+			"icon": "res://sprites/Warp_Pack_Stratagem_Icon.svg",
+			"comment": "传送背包（变量控制债券） ↓←→↓←→"
+		},
+		{
+			"sequence": [
+				"move_left",
+				"move_down",
+				"move_right",
+				"move_up",
+				"move_left",
+				"move_down",
+				"move_down"
+			],
+			"icon": "res://sprites/Patriot_Exosuit_Stratagem_Icon.svg",
+			"comment": "“爱国者”外骨骼装甲 ←↓→↑←↓↓"
+		},
+		{
+			"sequence": [
+				"move_left",
+				"move_down",
+				"move_right",
+				"move_up",
+				"move_left",
+				"move_down",
+				"move_up"
+			],
+			"icon": "res://sprites/Emancipator_Exosuit_Stratagem_Icon.svg",
+			"comment": "“解放者”外骨骼装甲 ←↓→↑←↓↑"
+		},
+		{
+			"sequence": [
+				"move_left",
+				"move_down",
+				"move_right",
+				"move_down",
+				"move_right",
+				"move_down",
+				"move_up"
+			],
+			"icon": "res://sprites/Fast_Recon_Vehicle_Stratagem_Icon.svg",
+			"comment": "快速侦查载具 ←↓→↓→↓↑"
+		},
+		{
+			"sequence": [
+				"move_left",
+				"move_down",
+				"move_right",
+				"move_down",
+				"move_left",
+				"move_down",
+				"move_up",
+				"move_down",
+				"move_up"
+			],
+			"icon": "res://sprites/Bastion_MK_XVI_Stratagem_Icon.svg",
+			"comment": "堡垒MK XVI ←↓→↓←↓↑↓↑"
+		},
+		{
+			"sequence": [
+				"move_up",
+				"move_down",
+				"move_right",
+				"move_left",
+				"move_up"
+			],
+			"icon": "res://sprites/Reinforce_Stratagem_Icon.svg",
+			"comment": "增援 ↑↓→←↑"
+		},
+		{
+			"sequence": [
+				"move_down",
+				"move_down",
+				"move_up",
+				"move_right"
+			],
+			"icon": "res://sprites/Resupply_Stratagem_Icon.svg",
+			"comment": "重新补给 ↓↓↑→"
+		},
+		{
+			"sequence": [
+				"move_up",
+				"move_down",
+				"move_right",
+				"move_up"
+			],
+			"icon": "res://sprites/SOS_Beacon_Stratagem_Icon.svg",
+			"comment": "SOS信标 ↑↓→↑"
+		},
+		{
+			"sequence": [
+				"move_up",
+				"move_up",
+				"move_left",
+				"move_up",
+				"move_right"
+			],
+			"icon": "res://sprites/Eagle_Rearm_Stratagem_Icon.svg",
+			"comment": "重新武装“飞鹰” ↑↑←↑→"
+		},
+		{
+			"sequence": [
+				"move_up",
+				"move_up",
+				"move_down",
+				"move_down",
+				"move_left",
+				"move_right",
+				"move_left",
+				"move_right"
+			],
+			"icon": "res://sprites/Call_In_Super_Destroyer_Stratagem_Icon.svg",
+			"comment": "召唤超级驱逐舰（西线突击兵任务） ↑↑↓↓←→←→"
+		},
+		{
+			"sequence": [
+				"move_down",
+				"move_up",
+				"move_left",
+				"move_down",
+				"move_up",
+				"move_right",
+				"move_down",
+				"move_up"
+			],
+			"icon": "res://sprites/Hellbomb_Stratagem_Icon.svg",
+			"comment": "地狱火炸弹 ↓↑←↓↑→↓↑"
+		},
+		{
+			"sequence": [
+				"move_right",
+				"move_up",
+				"move_up",
+				"move_down"
+			],
+			"icon": "res://sprites/SEAF_Artillery_Stratagem_Icon.svg",
+			"comment": "超级地球武装部队大炮（大炮支线任务） →↑↑↓"
+		},
+		{
+			"sequence": [
+				"move_left",
+				"move_right",
+				"move_up",
+				"move_up",
+				"move_up"
+			],
+			"icon": "res://sprites/Start_Upload_Stratagem_Icon.svg",
+			"comment": "上传数据（逃生舱支线任务等） ←→↑↑↑"
+		},
+		{
+			"sequence": [
+				"move_down",
+				"move_down",
+				"move_down",
+				"move_down",
+				"move_down",
+				"move_up",
+				"move_up"
+			],
+			"icon": "res://sprites/Start_Upload_Stratagem_Icon.svg",
+			"comment": "运送超级固态硬盘（撤离公民任务等） ↓↓↓↓↓↑↑"
+		},
+		{
+			"sequence": [
+				"move_down",
+				"move_up",
+				"move_down",
+				"move_up"
+			],
+			"icon": "res://sprites/Super_Earth_Flag_Stratagem_Icon.svg",
+			"comment": "超级地球旗帜（升旗任务） ↓↑↓↑"
+		},
+		{
+			"sequence": [
+				"move_up",
+				"move_up",
+				"move_left",
+				"move_right",
+				"move_down",
+				"move_down"
+			],
+			"icon": "res://sprites/Seismic_Probe_Stratagem_Icon.svg",
+			"comment": "地震探测仪（勘察矿脉任务） ↑↑←→↓↓"
+		},
+		{
+			"sequence": [
+				"move_down",
+				"move_down",
+				"move_left",
+				"move_right",
+				"move_down",
+				"move_down"
+			],
+			"icon": "res://sprites/Prospecting_Drill_Stratagem_Icon.svg",
+			"comment": "地质勘探钻机（地质勘探任务） ↓↓←→↓↓"
+		},
+		{
+			"sequence": [
+				"move_up",
+				"move_left",
+				"move_right",
+				"move_down",
+				"move_up",
+				"move_up"
+			],
+			"icon": "res://sprites/Dark_Fluid_Vessel_Stratagem_Icon.svg",
+			"comment": "暗流体容器（暗流体任务） ↑←→↓↑↑"
+		},
+		{
+			"sequence": [
+				"move_up",
+				"move_down",
+				"move_up",
+				"move_down",
+				"move_up",
+				"move_down"
+			],
+			"icon": "res://sprites/Prospecting_Drill_Stratagem_Icon.svg",
+			"comment": "构造钻机（暗流体任务） ↑↓↑↓↑↓"
+		},
+		{
+			"sequence": [
+				"move_left",
+				"move_up",
+				"move_down",
+				"move_right",
+				"move_down",
+				"move_down"
+			],
+			"icon": "res://sprites/Prospecting_Drill_Stratagem_Icon.svg",
+			"comment": "虫巢破坏者钻机（消灭窝点任务） ←↑↓→↑↑"
+		},
+		{
+			"sequence": [
+				"move_up",
+				"move_up",
+				"move_down",
+				"move_down",
+				"move_right",
+				"move_down"
+			],
+			"icon": "res://sprites/Cargo_Container_Stratagem_Icon.svg",
+			"comment": "货物集装箱（西线夺取任务等） ↑↑↓↓→↓"
+		},
+		{
+			"sequence": [
+				"move_down",
+				"move_down",
+				"move_down",
+				"move_left",
+				"move_up",
+				"move_up",
+				"move_up"
+			],
+			"icon": "res://sprites/Seismic_Probe_Stratagem_Icon.svg",
+			"comment": "数据接口（南线尖塔任务） ↓↓↓←↑↑↑"
+		},
+		{
+			"sequence": [
+				"special"
+			],
+			"icon": "res://sprites/Minamo_Chino.jpg",
+			"comment": "清水老师的考验：随机20长度命令"
+		}
+	]
+}
