@@ -177,19 +177,6 @@ texture = ExtResource("3_kdubu")
 [node name="Main" type="Node2D" unique_id=1914524181]
 script = ExtResource("1_wtcfe")
 
-[node name="ArrowContainer" type="HBoxContainer" parent="." unique_id=1131209323]
-anchors_preset = 8
-anchor_left = 0.5
-anchor_top = 0.5
-anchor_right = 0.5
-anchor_bottom = 0.5
-offset_left = 960.0
-offset_top = 800.0
-offset_right = 960.0
-offset_bottom = 800.0
-grow_horizontal = 2
-grow_vertical = 2
-
 [node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=1574138340]
 
 [node name="ScoreLabel" type="Label" parent="CanvasLayer" unique_id=319226150]
@@ -408,11 +395,36 @@ theme_override_styles/focus = SubResource("StyleBoxTexture_flf07")
 alignment = 1
 icon_alignment = 1
 
+[node name="ArrowContainer" type="HBoxContainer" parent="." unique_id=1131209323]
+z_index = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 960.0
+offset_top = 800.0
+offset_right = 960.0
+offset_bottom = 800.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Gamebg" type="PanelContainer" parent="." unique_id=1762632996]
+visible = false
+z_index = -10
+z_as_relative = false
+offset_right = 1920.0
+offset_bottom = 1080.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme_override_styles/panel = SubResource("StyleBoxTexture_nr8wp")
+
 [node name="Timer" type="Timer" parent="." unique_id=1346078415]
 wait_time = 1.5
 autostart = true
 
 [node name="BatchIcon" type="TextureRect" parent="." unique_id=2141674683]
+z_index = 1
 custom_minimum_size = Vector2(128, 128)
 anchors_preset = 8
 anchor_left = 0.5
@@ -427,15 +439,6 @@ grow_horizontal = 2
 grow_vertical = 2
 expand_mode = 1
 stretch_mode = 5
-
-[node name="Gamebg" type="Panel" parent="." unique_id=472731547]
-visible = false
-z_index = -1
-offset_right = 1920.0
-offset_bottom = 1080.0
-size_flags_horizontal = 3
-size_flags_vertical = 3
-theme_override_styles/panel = SubResource("StyleBoxTexture_nr8wp")
 
 [node name="HoverTimer" type="Timer" parent="." unique_id=1596979051]
 

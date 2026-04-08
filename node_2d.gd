@@ -160,6 +160,11 @@ func _ready():
 	
 	refresh_timer.timeout.connect(_on_refresh_timeout)
 	
+	var window_size = get_viewport_rect().size
+	
+	game_bg.position = (window_size / 2) - (start_menu.size / 2)
+	game_bg.size = window_size
+	
 	# 监听窗口尺寸变化的信号
 	get_tree().root.size_changed.connect(_on_window_resized)
 	# 初始化时执行一次对齐
@@ -237,6 +242,10 @@ func _on_window_resized():
 	if start_menu:
 		# 如果你移除了 Container，手动计算中心点
 		start_menu.position = (window_size / 2) - (start_menu.size / 2)
+	
+	if game_bg:
+		game_bg.position = (window_size / 2) - (start_menu.size / 2)
+		game_bg.size = window_size
 	
 	# 2. 让箭头显示区域保持在屏幕中下方
 	if arrow_container:
