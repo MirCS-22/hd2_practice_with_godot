@@ -473,11 +473,11 @@ func _unhandled_input(event):
 	# 1. 检查玩家是否按下了方向键动作
 	var actions = ["move_up", "move_down", "move_left", "move_right"]
 	for action in actions:
-		if first_press_en:
-			if not first_press:
-				$Timer.start()
-				first_press = true
 		if event.is_action_pressed(action):
+			if first_press_en:
+				if not first_press:
+					$Timer.start()
+					first_press = true
 			check_input(action)
 			return # 找到匹配动作后直接返回，防止一帧触发多次
 
