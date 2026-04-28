@@ -216,6 +216,18 @@
 		{
 			"sequence": [
 				"move_down",
+				"move_left",
+				"move_down",
+				"move_right",
+				"move_up",
+				"move_left"
+			],
+			"icon": "res://sprites/Bullet_Storm_Stratagem_Icon.svg",
+			"comment": "子弹风暴（外骨骼装甲专家债券） ↓←↓→↑←"
+		},
+		{
+			"sequence": [
+				"move_down",
 				"move_right",
 				"move_down",
 				"move_left",
@@ -958,6 +970,32 @@
 			],
 			"icon": "res://sprites/Bastion_MK_XVI_Stratagem_Icon.svg",
 			"comment": "堡垒MK XVI ←↓→↓←↓↑↓↑"
+		},
+		{
+			"sequence": [
+				"move_left",
+				"move_down",
+				"move_right",
+				"move_left",
+				"move_right",
+				"move_down",
+				"move_up"
+			],
+			"icon": "res://sprites/Breakthrough_Exosuit_Stratagem_Icon.svg",
+			"comment": "突破（外骨骼装甲专家债券） ←↓→←→↓↑"
+		},
+		{
+			"sequence": [
+				"move_left",
+				"move_down",
+				"move_right",
+				"move_up",
+				"move_right",
+				"move_left",
+				"move_up"
+			],
+			"icon": "res://sprites/Lumberer_Exosuit_Stratagem_Icon.svg",
+			"comment": "伐木者（外骨骼装甲专家债券） ←↓→↑→←↑"
 		},
 		{
 			"sequence": [
