@@ -999,6 +999,32 @@
 		},
 		{
 			"sequence": [
+				"move_left",
+				"move_down",
+				"move_right",
+				"move_left",
+				"move_down",
+				"move_up",
+				"move_up"
+			],
+			"icon": "res://sprites/Incinerator_FRV_Stratagem_Icon.svg",
+			"comment": "炽灼型快速侦察载具 ←↓→←↓↑↑"
+		},
+		{
+			"sequence": [
+				"move_left",
+				"move_down",
+				"move_left",
+				"move_left",
+				"move_down",
+				"move_up",
+				"move_right"
+			],
+			"icon": "res://sprites/Supply_FRV_Stratagem_Icon.svg",
+			"comment": "补给型快速侦察载具 ←↓←←↓↑→"
+		},
+		{
+			"sequence": [
 				"move_up",
 				"move_down",
 				"move_right",
