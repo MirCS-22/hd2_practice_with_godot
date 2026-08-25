@@ -1236,6 +1236,20 @@
 		},
 		{
 			"sequence": [
+				"move_left",
+				"move_left",
+				"move_left",
+				"move_up",
+				"move_down",
+				"move_right",
+				"move_down",
+				"move_down"
+			],
+			"icon": "res://sprites/Prospecting_Drill_Stratagem_Icon.svg",
+			"comment": "含水层钻机（寂域任务） ←←←↑↓→↓↓"
+		},
+		{
+			"sequence": [
 				"special"
 			],
 			"icon": "res://sprites/Minamo_Chino.jpg",

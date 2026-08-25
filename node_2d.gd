@@ -28,6 +28,7 @@ var icon_buttons = []   # 引用所有的按钮节点以便批量操作
 @onready var result_label = $CanvasLayer/ResultContainer/ResultLabel
 @onready var select_all_btn = $CanvasLayer/SelectAllButton
 @onready var deselect_all_btn = $CanvasLayer/DeselectAllButton
+@onready var return_btn = $CanvasLayer/ReturnButton
 
 @onready var selection_panel = $CanvasLayer/ScrollContainer
 @onready var grid_container = $CanvasLayer/ScrollContainer/GridContainer
@@ -139,16 +140,21 @@ func _ready():
 	blitz_btn.text = "固定时间：%d s" % time_limit
 	special_btn.text = "Hell+ %d" % target_batches
 	result_label.text = "潜兵搓球练习，WASD/↑↓←→控制，左侧自选战备组"
+	return_btn.text = "按此返回"
+	return_btn.hide()
 	time_attack_btn.add_theme_font_size_override("font_size", 30)
 	blitz_btn.add_theme_font_size_override("font_size", 30)
 	special_btn.add_theme_font_size_override("font_size", 30)
 	detail_label.add_theme_font_size_override("font_size", 25)
+	return_btn.add_theme_font_size_override("font_size", 25)
 	time_attack_btn.pressed.connect(start_game.bind(GameMode.TIME_ATTACK, false))
 	blitz_btn.pressed.connect(start_game.bind(GameMode.BLITZ_MODE, false))
 	special_btn.pressed.connect(start_game.bind(GameMode.TIME_ATTACK, true))
+	return_btn.pressed.connect(end_game.bind(false))
 	
 	score_label.add_theme_font_override("font", custom_font)
 	timer_label.add_theme_font_override("font", custom_font)
+	return_btn.add_theme_font_override("font", custom_font)
 	mode_label.add_theme_font_override("font", custom_font)
 	result_label.add_theme_font_override("font", custom_font)
 	time_attack_btn.add_theme_font_override("font", custom_font)
@@ -188,7 +194,7 @@ func _process(delta):
 			time_elapsed += delta
 		timer_label.text = "用时: %.2f" % time_elapsed
 		if completed_batches >= target_batches:
-			end_game()
+			end_game(true)
 			
 	elif current_mode == GameMode.BLITZ_MODE:
 		if first_press:
@@ -196,7 +202,7 @@ func _process(delta):
 			time_limit -= delta
 		timer_label.text = "剩余时间: %.2f" % max(0, time_limit)
 		if time_limit <= 0:
-			end_game()
+			end_game(true)
 
 func _on_refresh_timeout():
 	refresh_timer.stop()
@@ -275,6 +281,7 @@ func start_game(mode, special_mode):
 	start_menu.hide()
 	time_attack_btn.hide()
 	blitz_btn.hide()
+	return_btn.show()
 	special_btn.hide()
 	result_label.hide()
 	check_button.hide()
@@ -590,7 +597,7 @@ func complete_round():
 		score += current_batch.size() * 100 + arrow_combo * 10
 		score_label.text = "进度: %d / %d" % [completed_batches, target_batches]
 		if completed_batches >= target_batches:
-			end_game()
+			end_game(true)
 			return # 结束了，不再执行下面的 next_round()
 			
 	elif current_mode == GameMode.BLITZ_MODE:
@@ -598,16 +605,16 @@ func complete_round():
 		score_label.text = "得分: %d (已完成: %d组)" % [score, completed_batches]
 		# 倒计时模式在 _process 里检查时间，这里只需判断是否已超时
 		if time_limit <= 0:
-			end_game()
+			end_game(true)
 			return
 
 	# 只有在游戏未结束时才刷新下一组
 	refresh_timer.start()
 	next_round(true)
 
-func end_game():
+func end_game(normal_end: bool):
 	is_game_over = true
-	if not is_mute:
+	if not is_mute and normal_end:
 		play_finish_sfx()
 	
 	# 停止计时器节点（如果有的话）
@@ -637,6 +644,7 @@ func end_game():
 	start_menu.show() # 重新显示面板
 	time_attack_btn.show()
 	blitz_btn.show()
+	return_btn.hide()
 	special_btn.show()
 	result_label.show()
 	check_button.show()

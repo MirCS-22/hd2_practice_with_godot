@@ -151,6 +151,12 @@ texture_margin_right = 100.0
 texture_margin_bottom = 60.0
 modulate_color = Color(0.5019608, 0.5019608, 0.5019608, 1)
 
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_k73cj"]
+texture = ExtResource("2_kdubu")
+texture_margin_left = 50.0
+expand_margin_left = 40.0
+expand_margin_right = 10.0
+
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_ta5nu"]
 content_margin_left = 0.0
 content_margin_top = 0.0
@@ -256,6 +262,12 @@ theme_override_styles/normal = SubResource("StyleBoxTexture_kdubu")
 theme_override_styles/pressed = SubResource("StyleBoxTexture_4d7sh")
 theme_override_styles/hover = SubResource("StyleBoxTexture_ir8iy")
 
+[node name="DeselectAllButton" type="Button" parent="CanvasLayer" unique_id=453925830]
+offset_left = 175.0
+offset_top = 50.0
+offset_right = 275.0
+offset_bottom = 100.0
+
 [node name="SpecialButton" type="Button" parent="CanvasLayer" unique_id=1093739123]
 custom_minimum_size = Vector2(300, 150)
 anchors_preset = 8
@@ -295,11 +307,18 @@ texture = ExtResource("9_ir8iy")
 expand_mode = 1
 stretch_mode = 5
 
-[node name="DeselectAllButton" type="Button" parent="CanvasLayer" unique_id=738652768]
-offset_left = 175.0
-offset_top = 50.0
-offset_right = 275.0
-offset_bottom = 100.0
+[node name="ReturnButton" type="Button" parent="CanvasLayer" unique_id=738652768]
+offset_left = 1600.0
+offset_top = 322.0
+offset_right = 1800.0
+offset_bottom = 382.0
+theme_override_styles/normal = SubResource("StyleBoxTexture_k73cj")
+theme_override_styles/pressed = SubResource("StyleBoxTexture_k73cj")
+theme_override_styles/hover = SubResource("StyleBoxTexture_k73cj")
+theme_override_styles/disabled = SubResource("StyleBoxTexture_k73cj")
+theme_override_styles/focus = SubResource("StyleBoxTexture_k73cj")
+alignment = 0
+autowrap_trim_flags = 0
 
 [node name="SelectAllButton" type="Button" parent="CanvasLayer" unique_id=893850476]
 offset_left = 50.0
