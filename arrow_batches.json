@@ -538,6 +538,16 @@
 			"sequence": [
 				"move_up",
 				"move_right",
+				"move_left",
+				"move_right"
+			],
+			"icon": "res://sprites/Eagle_Gas_Airstrike_Stratagem_Icon_Background.svg",
+			"comment": "“飞鹰”毒气空袭 ↑→←→"
+		},
+		{
+			"sequence": [
+				"move_up",
+				"move_right",
 				"move_up",
 				"move_down"
 			],
