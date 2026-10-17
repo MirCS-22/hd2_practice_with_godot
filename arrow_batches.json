@@ -998,6 +998,21 @@
 				"move_left",
 				"move_down",
 				"move_right",
+				"move_down",
+				"move_left",
+				"move_down",
+				"move_up",
+				"move_left",
+				"move_right"
+			],
+			"icon": "res://sprites/Maelstrom_Stratagem_Icon_Background.svg",
+			"comment": "风暴旋涡 ←↓→↓←↓↑←→"
+		},
+		{
+			"sequence": [
+				"move_left",
+				"move_down",
+				"move_right",
 				"move_left",
 				"move_right",
 				"move_down",
